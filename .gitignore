@@ -53,3 +53,8 @@ Thumbs.db
 *.egg
 dist/
 build/
+data/*
+!data/.gitkeep
+!model/.gitkeep
+output/*
+!output/.gitkeep
