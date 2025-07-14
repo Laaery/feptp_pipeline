@@ -49,7 +49,7 @@ First, clone the repository and set up a virtual environment:
 git clone https://github.com/yourusername/FePTP.git 
 cd FePTP
 python -m venv venv
-source venv/bin/activate     # On Windows: venv\Scripts\activate
+venv\Scripts\activate     # On Linux: source venv/bin/activate
 pip install -r requirements.txt
 ```
 Then, install the required dependencies and the project as a package:
