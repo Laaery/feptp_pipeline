@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# -*- coding:utf-8 -*-
-# @Time: 2024/7/6 10:09
-# @Author: LL
-# @File：classify_reason.py
 """
 Predict the reason for transformation pathways based on summary and operation description.
 """

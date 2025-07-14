@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# -*- coding:utf-8 -*-
-# @Time: 2024/7/8 20:48
-# @Author: LL
-# @File：resolve_conflict_in_pathways.py
 """
 Resolve conflicts in the transformation pathways.
 """
