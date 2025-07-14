@@ -32,7 +32,6 @@ FePTP/
 │   └── paper2vector/          #  Paper-to-vector pipeline for semantic search
 ├── logs/                   # Log
 ├── model/                # Model checkpoints and fine-tuned weights
-├── output/                # OCR results
 ├── prompt/               # Prompt templates for LLMs
 ├── script/                 # Executable scripts
 ├── docker-compose.yml     # Docker-based deployment setup for Weaviate
