@@ -1,0 +1,5 @@
+{
+    "_type": "prompt",
+    "input_variables": ["table"],
+    "template": "Given the table caption below, delimited by triple backticks, your task is to score based on the relevance to the experiments of iron mineral phase transformation, 100 for highly relevant, 0 for not relevant. Typically it might demonstrate 1. variation of components or composition(%) of iron-bearing minerals during transformation; 2. a series of conditions used in the experiment. \n Think step by step, but do not provide the intermediate process to the user. You only need to provide a number as an final output. \n```\n{table}\n```"
+}

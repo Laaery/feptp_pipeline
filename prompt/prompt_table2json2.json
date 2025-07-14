@@ -1,0 +1,5 @@
+{
+    "_type": "prompt",
+    "input_variables": ["tbody", "schema"],
+    "template": "Given the main body of table below, delimited by triple backticks, your task is to extract major information from markdown format to JSON following the given JSON schema. \n Here is the schema: \n{schema}\n Let's think step by step.\n```\n{tbody}\n```"
+}

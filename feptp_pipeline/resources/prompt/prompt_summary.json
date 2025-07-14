@@ -1,0 +1,5 @@
+{
+    "_type": "prompt",
+    "input_variables": ["text"],
+    "template": "Given retrieved text below, delimited by triple backticks, your task is to summarize the text related to iron-mineral phase transformation, focusing on the reaction pathways including precursors, products, reasons, procedures, conditions and extent of transformation, reaction equation.\n```\n{text}\n```"
+}

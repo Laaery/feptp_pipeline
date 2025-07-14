@@ -1,0 +1,5 @@
+{
+    "_type": "prompt",
+    "input_variables": ["pathways", "format_instructions"],
+    "template": "Given pathways of mineral phase transformation reaction, delimited by triple backticks, from a scientific paper about iron minerals, your task is to formulate a JSON contains queries for RAG (Retrieval Augmented Generation) for each pathway. The queries should keep as much information as possible from the extracted pathway. An example query looks like: Transformation pathway of Fe(OH)2 to Fe3O4 via Schikorr reaction, involving aging in N2 gas at 100°C for 24 h, oxidation with O2 gas at 70°C for 3 h.\nFormat instructions: {format_instructions}\n```\n{pathways}\n```"
+}

@@ -1,0 +1,5 @@
+{
+    "_type": "prompt",
+    "input_variables": ["mineral_info", "format_instructions", "text"],
+    "template": "Given the text, delimited by triple backticks, from a scientific paper about phase transformation, your task is to extract reaction pathways of iron-bearing mineral phase transformation. Choose mineral phase names and chemical formulas in the list below, unless a iron-bearing phase not included in the list appears in the text, then fill in according to the information given in the text. {mineral_info}\nNote that consecutive reaction with intermediate phase transformation should also be decomposed to multiple independent pathway. Do not include any pathway that starts from ferrous or ferric solution or organic-iron precursors. Double check and eliminate repeated reaction pathways.\n{format_instructions}\nIf you find no explicit pathways in the text, e.i. lack of precursor or product phases, then return an empty list. If you find not enough information to determine the value to keys, just use \"uncertain\". Let's think step by step.\n```{text}```"
+}

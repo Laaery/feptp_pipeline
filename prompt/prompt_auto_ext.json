@@ -1,0 +1,5 @@
+{
+    "_type": "prompt",
+    "input_variables": ["text", "query"],
+    "template": "Given the text, delimited by triple backticks, from a scientific paper, your task is to extract related information or answer the question according to the query.\nQuery: {query}.\nIf you find insufficient information, just use 'uncertain'. Let's think step by step.\n```{text}```"
+}
