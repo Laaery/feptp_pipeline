@@ -140,6 +140,6 @@ python script/ie/run_auto_extract.py --doi xxx/xxxxxxxx --query "xxxx"
 
 ## 🔗 Citation
 
-If you use **FePTP** or the FePTP dataset in your research, please cite:
+If you use **FePTP** pipeline or the FePTP dataset in your research, please cite:
 
-bibtex
+Lin L, Ren C, Xiao Y, Nie J, Qi C, Li X, et al. FePTP: A text-mined dataset of transformation pathways among iron-containing phases. ChemRxiv. 2025; doi:10.26434/chemrxiv-2025-5t3s1
